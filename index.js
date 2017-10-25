@@ -89,8 +89,8 @@ class Blockie extends Component {
         }
       }
 
-      let row = Math.floor(i / this.props.size);
-      let col = i % this.props.size;
+      let row = Math.floor(i / size);
+      let col = i % size;
 
       return (
         <Rect
@@ -107,7 +107,7 @@ class Blockie extends Component {
 
   render() {
     const size = this.props.size || 8;
-    const scale = this.props.scale || 4;
+    const scale = this.props.scale || 8;
 
     return (
       <Svg
