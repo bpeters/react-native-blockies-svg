@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-
+    "react": "^16.0.0",
+    "react-native-svg": "^5.4.2"
   }
 }
