@@ -94,6 +94,7 @@ class Blockie extends Component {
 
       return (
         <Rect
+          key={i}
           x={row * scale}
           y={col * scale}
           width={scale}
