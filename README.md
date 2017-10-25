@@ -13,7 +13,7 @@ react-native link
 
 ## General Usage
 
-You can use this provider wherever a Web3 provider is needed, not just in Truffle. For Truffle-specific usage, see next section.
+Treat like any other react component, included props: size, scale, seed, color, bgcolor, and spotcolor.
 
 ```javascript
 import Blockies from 'react-native-blockies-svg';
